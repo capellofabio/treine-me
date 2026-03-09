@@ -10,11 +10,21 @@ header {
 }
 
 .company-name {
-    color: #89C5CC;
     font-family: "Inter", sans-serif;
     font-size: 22px;
-    font-weight: bold;
     line-height: 26px;
+}
+
+.light-blue {
+    color: #89C5CC;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.mulish {
+    font-family: "Mulish", sans-serif;
 }
 
 nav ul {
@@ -27,8 +37,6 @@ ul li {
 }
 
 nav ul li a {
-    font-family: "Mulish", sans-serif;
-    font-weight: bold;
     font-size: 18px;
     color: #1F153480;
     text-decoration: none;
