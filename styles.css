@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 3vh 10vw;
+}
+
+.company-name {
+    color: #89C5CC;
+    font-family: "Inter", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 26px;
+}
+
+nav ul {
+    display: flex;
+}
+
+ul li {
+    margin-left: 20px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1F153480;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #1F1534;
+}
