@@ -45,3 +45,39 @@ nav ul li a {
 nav ul li a:hover {
     color: #1F1534;
 }
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10vw;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 150%;
+}
+
+main p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 160%;
+    color: #7D7987;
+}
+
+button {
+    background-color: #69B99D;
+    color: white;
+    padding: 14px 32px 15px 32px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button::before {
+    content: url(images/whatsapp-icon.svg);
+}
